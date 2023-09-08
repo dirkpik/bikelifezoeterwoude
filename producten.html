@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Over Ons</title>
+    <title>Mijn Enorme Website</title>
     <style>
-        /* CSS-stijlen inline in het HTML-bestand */
+        /* CSS-stijlen */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -45,23 +45,66 @@
             text-align: center;
             padding: 10px;
         }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
     </style>
     <script>
-        // JavaScript-code inline in het HTML-bestand
+        // JavaScript-code voor alle pagina's
         function openContactForm() {
             alert("Dit is het contactformulier. Vul uw gegevens in.");
         }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const openButton = document.getElementById("openContactForm");
+            if (openButton) {
+                openButton.addEventListener("click", openContactForm);
+            }
+        });
     </script>
 </head>
 <body>
+    <!-- Homepagina -->
+    <header>
+        <h1>Homepagina</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Over Ons</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Producten</a></li> <!-- New page link -->
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Welkom op onze website</h2>
+            <p>Dit is de startpagina van onze website.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mijn Website</p>
+    </footer>
+
+    <!-- Over Ons -->
     <header>
         <h1>Over Ons</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">Over Ons</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Over Ons</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Producten</a></li> <!-- New page link -->
         </ul>
     </nav>
     <main>
@@ -73,5 +116,57 @@
     <footer>
         <p>&copy; 2023 Mijn Website</p>
     </footer>
+
+    <!-- Contactpagina -->
+    <header>
+        <h1>Contactpagina</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Over Ons</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Producten</a></li> <!-- New page link -->
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Contactgegevens</h2>
+            <p>Neem contact met ons op via onderstaande informatie:</p>
+            <ul>
+                <li><strong>Adres:</strong> Voorbeeldstraat 123, 1234 AB Stad</li>
+                <li><strong>Telefoon:</strong> 123-456-7890</li>
+                <li><strong>E-mail:</strong> contact@example.com</li>
+            </ul>
+            <button id="openContactForm">Open Contactformulier</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mijn Website</p>
+    </footer>
+
+    <!-- Productenpagina -->
+    <header>
+        <h1>Productenpagina</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Over Ons</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Producten</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Onze Producten</h2>
+            <p>Bekijk hieronder onze geweldige producten.</p>
+            <!-- Voeg productinformatie toe -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mijn Website</p>
+    </footer>
 </body>
 </html>
+
