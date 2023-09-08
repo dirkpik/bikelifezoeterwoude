@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Complete Website</title>
+    <style>
+        /* CSS-stijlen */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Homepagina -->
+    <header>
+        <h1>Homepagina</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#overons">Over Ons</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#producten">Producten</a></li>
+            <li><a href="#projecten">Onze Projecten</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welkom op onze website</h2>
+            <p>Dit is de startpagina van onze website.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mijn Complete Website</p>
+    </footer>
+
+    <!-- Over Ons -->
+    <header>
+        <h1>Over Ons</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#overons">Over Ons</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#producten">Producten</a></li>
+            <li><a href="#projecten">Onze Projecten</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="overons">
+            <h2>Onze Geschiedenis</h2>
+            <p>Wij zijn een fantastisch bedrijf met een rijke geschiedenis.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mijn Complete Website</p>
+    </footer>
+
+    <!-- Contactpagina -->
+    <header>
+        <h1>Contactpagina</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#overons">Over Ons</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#producten">Producten</a></li>
+            <li><a href="#projecten">Onze Projecten</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="contact">
+            <h2>Contactgegevens</h2>
+            <p>Neem contact met ons op via onderstaande informatie:</p>
+            <ul>
+                <li><strong>Adres:</strong> Voorbeeldstraat 123, 1234 AB Stad</li>
+                <li><strong>Telefoon:</strong> 123-456-7890</li>
+                <li><strong>E-mail:</strong> contact@example.com</li>
+            </ul>
+            <button id="openContactForm">Open Contactformulier</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mijn Complete Website</p>
+    </footer>
+
+    <!-- Productenpagina -->
+    <header>
+        <h1>Productenpagina</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#overons">Over Ons</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#producten">Producten</a></li>
+            <li><a href="#projecten">Onze Projecten</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="producten">
+            <h2>Onze Producten</h2>
+            <p>Bekijk hieronder onze geweldige producten.</p>
+            <!-- Voeg productinformatie toe -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mijn Complete Website</p>
+    </footer>
+
+    <!-- Onze Projecten -->
+    <header>
+        <h1>Onze Projecten</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#overons">Over Ons</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#producten">Producten</a></li>
+            <li><a href="#projecten">Onze Projecten</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="projecten">
+            <h2>Onze Projecten</h2>
+            <p>Bekijk enkele van onze meest recente projecten hieronder.</p>
+            <!-- Voeg projectinformatie toe -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mijn Complete Website</p>
+    </footer>
+
+    <script>
+        // JavaScript-code voor alle pagina's
+        function openContactForm() {
+            alert("Dit is het contactformulier. Vul uw gegevens in.");
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const openButton = document.getElementById("openContactForm");
+            if (openButton) {
+                openButton.addEventListener("click
