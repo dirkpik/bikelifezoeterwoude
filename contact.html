@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactpagina</title>
+    <style>
+        /* CSS-stijlen inline in het HTML-bestand */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+    <script>
+        // JavaScript-code inline in het HTML-bestand
+        function openContactForm() {
+            alert("Dit is het contactformulier. Vul uw gegevens in.");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Contactpagina</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Over Ons</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Contactgegevens</h2>
+            <p>Neem contact met ons op via onderstaande informatie:</p>
+            <ul>
+                <li><strong>Adres:</strong> Voorbeeldstraat 123, 1234 AB Stad</li>
+                <li><strong>Telefoon:</strong> 123-456-7890</li>
+                <li><strong>E-mail:</strong> contact@example.com</li>
+            </ul>
+            <button onclick="openContactForm()">Open Contactformulier</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mijn Website</p>
+    </footer>
+</body>
+</html>
